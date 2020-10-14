@@ -1,4 +1,4 @@
-function [V_init,vmax,km] = M4_Algorithm_001_17(enz,time_enz,s_initial)
+function [V_init,vmax,km] = Algorithm(enz,time_enz,s_initial)
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % ENGR 132 
 % Program Description 
@@ -8,7 +8,7 @@ function [V_init,vmax,km] = M4_Algorithm_001_17(enz,time_enz,s_initial)
 % as time changing. 
 %
 % Function Call
-% [V_init,vmax,km] = M4_Algorithm_001_17(enz,time_enz,s_initial)
+% [V_init,vmax,km] = Algorithm(enz,time_enz,s_initial)
 %
 % Input Arguments
 % enz: NextGen enzyme vector that contains 10 tests.
@@ -22,20 +22,6 @@ function [V_init,vmax,km] = M4_Algorithm_001_17(enz,time_enz,s_initial)
 % substrate. (uM)
 % 
 %
-% Assignment Information
-%   Assignment:     M04, Part 2
-%   Team member:    Kyung Min Ko, ko120@purdue.edu
-%                   Danny Kim     kim3255@purdue.edu 
-%                   Caleb Hancock hancoc25@purdue.edu
-%                   John Groves,  jsgroves@purdue.edu               
-%   Team ID:        001-17
-%   Academic Integrity:
-%     [X] We worked with one or more peers but our collaboration
-%        maintained academic integrity.
-%     Peers we worked with: John Groves,  jsgroves@purdue.edu
-%                           Caleb Hancock hancoc25@purdue.edu
-%                           Danny Kim     kim3255@purdue.edu  
-%                           Kyung Min Ko, ko120@purdue.edu
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 %% ____________________
@@ -232,9 +218,5 @@ fprintf(km_vmax_txt, km,vmax);
 % 
 % km: 131.95 (uM) vmax: 1.38 (uM/s)
 %% ____________________
-%% ACADEMIC INTEGRITY STATEMENT
-% We have not used source code obtained from any other unauthorized
-% source, either modified or unmodified. Neither have we provided
-% access to my code to another. The program we are submitting
-% is our own original work.
+
 
