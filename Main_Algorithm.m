@@ -1,4 +1,4 @@
-function M4_main_001_17
+function Main_Algorithm
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Program Description 
 % This program load the data from PGO-X50 to find the parameters using
@@ -7,7 +7,7 @@ function M4_main_001_17
 % error calculation process
 %
 % Function Call
-% M4_main_001_17
+% Main_Algorithm
 %
 % Input Arguments
 % None
