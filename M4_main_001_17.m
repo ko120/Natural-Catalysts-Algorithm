@@ -16,20 +16,6 @@ function M4_main_001_17
 % Output Arguments
 % None
 %
-% Assignment Information
-%   Assignment:     M4, Part 2
-%   Team member:    Kyung Min Ko, ko120@purdue.edu
-%                   Danny Kim     kim3255@purdue.edu 
-%                   Caleb Hancock hancoc25@purdue.edu
-%                   John Groves,  jsgroves@purdue.edu 
-%   Team ID:        001-17
-%   Academic Integrity:
-%     [X] We worked with one or more peers but our collaboration
-%        maintained academic integrity.
-%     Peers we worked with: John Groves,  jsgroves@purdue.edu
-%                           Caleb Hancock hancoc25@purdue.edu
-%                           Danny Kim     kim3255@purdue.edu  
-%                           Kyung Min Ko, ko120@purdue.edu
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 clear;
 clc;
