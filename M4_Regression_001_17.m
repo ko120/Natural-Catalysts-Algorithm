@@ -1,6 +1,5 @@
 function [sse_price, sst_price, r_price]=M4_Regression_001_17(data_price,enz_a,enz_b,enz_c,enz_d,enz_e)
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% ENGR 132 
 % Program Description 
 % This program find the regression model for NaturalCatalysts' price data
 % with considering enzyme performance. Display the linear regression
@@ -24,20 +23,6 @@ function [sse_price, sst_price, r_price]=M4_Regression_001_17(data_price,enz_a,e
 % sst_price: Total sum of squares of the linear regression model
 % r_price: Coefficient of determination of the linear regression model
 %
-% Assignment Information
-%   Assignment:     M4, Problem part 3
-%   Team member:    John Groves,  jsgroves@purdue.edu
-%                   Caleb Hancock hancoc25@purdue.edu
-%                   Danny Kim     kim3255@purdue.edu  
-%                   Kyung Min Ko, ko120@purdue.edu
-%   Team ID:        001-17
-%   Academic Integrity:
-%     [X] We worked with one or more peers but our collaboration
-%        maintained academic integrity.
-%     Peers we worked with: John Groves,  jsgroves@purdue.edu
-%                           Caleb Hancock hancoc25@purdue.edu
-%                           Danny Kim     kim3255@purdue.edu  
-%                           Kyung Min Ko, ko120@purdue.edu
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 %% ____________________
