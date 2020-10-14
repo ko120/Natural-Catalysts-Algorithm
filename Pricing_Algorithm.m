@@ -1,4 +1,4 @@
-function [sse_price, sst_price, r_price]=M4_Regression_001_17(data_price,enz_a,enz_b,enz_c,enz_d,enz_e)
+function [sse_price, sst_price, r_price]=Pricing_Algorithm(data_price,enz_a,enz_b,enz_c,enz_d,enz_e)
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Program Description 
 % This program find the regression model for NaturalCatalysts' price data
@@ -8,7 +8,7 @@ function [sse_price, sst_price, r_price]=M4_Regression_001_17(data_price,enz_a,e
 % data.
 %
 % Function Call
-% [sse_price,sst_price,r_price]=M4_Regression_001_17(data_price,enz_a,enz_b,enz_c,enz_d,enz_e_)
+% [sse_price,sst_price,r_price]=Pricing_Algorithm(data_price,enz_a,enz_b,enz_c,enz_d,enz_e_)
 %
 % Input Arguments
 % data_price: The price data excel that includes km and price
@@ -145,12 +145,7 @@ fprintf(pr_txt,enz_a_price,enz_b_price,enz_c_price,enz_d_price,enz_e_price);
 % The sse is 0.1367 sst is 4.4451 and r^2 is 0.9693
 % The price of enzyme A is 432.08 $ enzyme B is 42.97 $ enzyme C is 248.52 $ enzyme D is 110.05 $ enzyme E is $382.93
 
-%% ____________________
-%% ACADEMIC INTEGRITY STATEMENT
-% We have not used source code obtained from any other unauthorized
-% source, either modified or unmodified. Neither have we provided
-% access to my code to another. The program we are submitting
-% is our own original work.
+
 
 
 
