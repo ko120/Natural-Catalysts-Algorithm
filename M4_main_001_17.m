@@ -1,6 +1,5 @@
 function M4_main_001_17
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% ENGR 132 
 % Program Description 
 % This program load the data from PGO-X50 to find the parameters using
 % M4_Algorithm_001_17.m file. Plot the Michaelis-Menten model and initial
@@ -232,12 +231,7 @@ title('Michaelis Menten Kinetics for Next Generation Enzymes');
 % Enzyme D has vmax:1.481 km:279.174 sse: 0.0159
 % Enzyme E has vmax:1.523 km:158.097 sse: 0.0190
 
-%% ____________________
-%% ACADEMIC INTEGRITY STATEMENT
-% We have not used source code obtained from any other unauthorized
-% source, either modified or unmodified. Neither have we provided
-% access to my code to another. The program we are submitting
-% is our own original work.
+
 
 
 
